@@ -1,0 +1,20 @@
+--suffix=.orig
+--recursive
+--style=allman
+--indent=force-tab
+--attach-extern-c
+--indent-switches
+--indent-cases
+--indent-preproc-block
+--indent-preproc-define
+--min-conditional-indent=1
+#--max-instatement-indent	# not-supported??
+--break-blocks
+--pad-oper
+--pad-paren-in
+--unpad-paren
+--align-pointer=type
+--align-reference=none
+--add-brackets
+--break-closing-brackets
+
