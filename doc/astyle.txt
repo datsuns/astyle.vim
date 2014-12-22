@@ -1,24 +1,23 @@
-*astyle.txt*	AStyleの適用
+*astyle.txt*	apply AStyle's code formatting
 
 Version: 0.0.0
 Author: datsuns <the.skeleton7@gmail.com>
 
 ==============================================================================
-目次						*astyle-contents*
+contents						*astyle-contents*
 
-概要				|astyle-introduction|
-設定例				|astyle-examples|
-更新履歴			|astyle-changelog|
-
-==============================================================================
-概要						*astyle-introduction*
+overview			|astyle-introduction|
+example				|astyle-examples|
+changelog			|astyle-changelog|
 
 ==============================================================================
-設定例						*astyle-examples*
+overview					*astyle-introduction*
 
 ==============================================================================
-更新履歴					*astyle-changelog*
+example						*astyle-examples*
 
+==============================================================================
+changelog					*astyle-changelog*
 
 ==============================================================================
 vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
