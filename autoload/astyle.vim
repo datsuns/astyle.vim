@@ -12,6 +12,12 @@ function! astyle#execute()
   endif
 
   let l:pos = getpos(".")
-  execute('%!' . g:astyle#command . ' --options=' . g:astyle#option_file)
+  execute('silent %!' . g:astyle#command . ' --options=' . g:astyle#option_file)
   call setpos(".", pos)
 endfunction
+
+function! astyle#register_autoexec()
+  autocmd! BufWritePost *.c   call astyle#execute()
+  autocmd! BufWritePost *.cpp call astyle#execute()
+endfunction
+
